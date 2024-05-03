@@ -1,0 +1,224 @@
+#content {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  #content .message {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  #content .username {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* Footer styles */
+footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin-top: 50px;
+    }
+    
+    footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    footer .row a:hover{
+    color:#fff;
+    }
+    
+    footer .row ul{
+    width:100%;
+    }
+    
+    footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    footer .row a img {
+        width: 30px;
+        padding: 10px; 
+      }
+      body{
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+}
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#logo_container img {
+  height: 40px;
+}
+
+#center_elements span,
+.right_elements span {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+#center_elements span a,
+.right_elements span a {
+  text-decoration: none;
+  color: #333;
+}
+
+#center_elements span a:hover,
+.right_elements span a:hover {
+  color: #ff8c00;
+}
+#Cart {
+    margin-right: 10px;
+  }
+  
+  #Cart a {
+    text-decoration: none;
+    color: #333;
+  }
+  #cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem; 
+    background-color: #08123f73;
+  }
+  
+  #Cart img {
+    width: 35px;
+    height: 20px;
+  }
+  .Products {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.OnSale_products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+.product_card {
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product_card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 16px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.minus-btn,
+.plus-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.qty-input {
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn2 {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn2:hover {
+  background-color: #d32f2f;
+}
+.shopping-cart{
+  padding: 3% 0;
+}
